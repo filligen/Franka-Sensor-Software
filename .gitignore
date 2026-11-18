@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- ROS 2 (in case it is used) ---
+build/
+install/
+log/
+
+# --- LaTeX (thesis/) ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.run.xml
+*.bcf
+thesis/build/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Large raw data: keep OUT of git (see data/raw/README.md) ---
+# Small raw files in data/raw/ ARE tracked on purpose.
+*.bag
+*.mcap
+*.db3
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.svo
+*.svo2
+data/raw/large/
+data/raw/**/*.npz.big
+
+# --- Fusion 360 local backups ---
+*.f3z.bak
