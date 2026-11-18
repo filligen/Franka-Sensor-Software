@@ -8,8 +8,8 @@
 | FR3 | Franka Research 3 robot |
 | TCP | Tool center point |
 | Trigger | Handheld lever that drives the gripping mechanism (mechanical) |
-| Sled | Sliding part on the linear rail that carries a finger holder |
-| Finger holder | Part mounting the gripper finger on the sled |
+| Sled | Sliding part connecting the Trigger and the gears |
+| Finger holder | Part mounting the gripper finger on the linear rails |
 | Implicit stereo | Side mirrors in the original UMI giving stereo from one camera; removed here (ZED Mini is already stereo) |
 | ZED Mini | Stereo camera |
 | pd\|z | Product Development Group Zurich |
